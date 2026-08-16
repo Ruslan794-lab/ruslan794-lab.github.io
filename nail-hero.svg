@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-label="Абстрактный бьюти-визуал">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff9f2"/><stop offset="1" stop-color="#eacdc9"/></linearGradient>
+    <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3f0715"/><stop offset=".48" stop-color="#9d3345"/><stop offset=".72" stop-color="#4e0e1d"/><stop offset="1" stop-color="#c66872"/></linearGradient>
+    <radialGradient id="pearl"><stop stop-color="#fff9db"/><stop offset=".45" stop-color="#e1bc7e"/><stop offset="1" stop-color="#8b592d"/></radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+  </defs>
+  <rect width="900" height="1100" fill="url(#bg)"/>
+  <circle cx="710" cy="190" r="225" fill="#f4ddd7" filter="url(#blur)" opacity=".68"/>
+  <path d="M-70 925C118 810 204 1060 402 922S675 694 970 800V1160H-70Z" fill="url(#ribbon)"/>
+  <path d="M-35 1014C165 853 235 1108 462 953S759 785 962 882" fill="none" stroke="#f6c9c2" stroke-opacity=".55" stroke-width="17"/>
+  <g transform="translate(465 270) rotate(12)">
+    <rect x="0" y="0" width="202" height="355" rx="101" fill="#f6d8d5"/>
+    <rect x="24" y="24" width="154" height="306" rx="77" fill="#fff4ed"/>
+    <rect x="209" y="50" width="188" height="325" rx="94" fill="#e7b6b8"/>
+    <rect x="231" y="72" width="144" height="280" rx="72" fill="#fff3ed"/>
+  </g>
+  <circle cx="224" cy="859" r="43" fill="url(#pearl)"/>
+  <circle cx="226" cy="852" r="12" fill="#fffce9" opacity=".75"/>
+  <text x="72" y="121" fill="#5b1524" font-family="Georgia, serif" font-size="43" letter-spacing="7">BEAUTY</text>
+  <text x="72" y="169" fill="#856d64" font-family="Arial, sans-serif" font-size="16" letter-spacing="5">CONTENT VISUAL</text>
+</svg>
